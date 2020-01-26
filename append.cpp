@@ -20,7 +20,7 @@ class stu{
      else if(marks>=60) grade = 'B';
      else if(marks>=50) grade = 'C';
      else if(marks>=40) grade = 'D';
-     else grade = "F";
+     else grade = 'F';
  }
  void putdata()
  {
@@ -40,7 +40,7 @@ int main()
     while (ans == 'y')
     {
         s1.getdata();
-        fo.write((char*)) &s1, sizeof(s1));
+        fo.write((char*) &s1, sizeof(s1));
         cout << "Record added to file. \n";
         cout << "want to enter more records?(y/n)..";
         cin>> ans;
