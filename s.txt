@@ -1,0 +1,14 @@
+Select *
+from directory
+where adress = "rohini";
+
+update directory
+set phone = 7047645
+where phone = 7057456;
+
+select *
+from directory
+where fname = "arpit" or ...
+
+delete from directory 
+where address = "rohini";
