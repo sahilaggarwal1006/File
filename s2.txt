@@ -1,0 +1,10 @@
+select * from school bus where noofstudent > capacity order by RT no;
+
+select area_covered from schoolbus 
+where distance>20 and charges<80000;
+
+select sum(noofstudents) from school bus bus group by transporter;
+
+update school bus set transporter = 'lovely travels' where transporter = 'bhallaco.'
+
+drop table schoolbus

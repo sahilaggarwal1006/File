@@ -3,8 +3,11 @@ from directory
 where adress = "rohini";
 
 update directory
-set phone = 7047645
+set phone = '7047645
 where phone = 7057456;
+
+create view dir as select fname, phone, 
+address from 'directory'
 
 select *
 from directory
@@ -12,3 +15,6 @@ where fname = "arpit" or ...
 
 delete from directory 
 where address = "rohini";
+
+
+drop table directory
